@@ -1,9 +1,8 @@
-#  OdinBook — A Full-Stack Social Media Platform
-**OdinBook** is a responsive, modern full-stack social media web application developed as part of [The Odin Project](https://www.theodinproject.com/) curriculum. It replicates core functionalities of platforms like Facebook and Twitter — enabling user interaction through posts, comments, likes, and social followings, all within a secure, session-based authentication system.
+A responsive, modern full-stack social media web application developed as part of [The Odin Project](https://www.theodinproject.com/) curriculum. It replicates core functionalities of platforms like Facebook and Twitter — enabling user interaction through posts, comments, likes, and social followings, all within a secure, session-based authentication system.
 
 
 ##  Project Highlights
- OdinBook showcases how full-stack concepts work in harmony — from database modeling and user authentication to frontend templating and stateful user sessions.
+ showcases how full-stack concepts work in harmony — from database modeling and user authentication to frontend templating and stateful user sessions.
 
 ### Authentication & Security
 - Local authentication via **Passport.js** using username & password
@@ -40,13 +39,21 @@
 ##  Tech Stack Overview
 
 | Layer             | Technology                                              |
+
 |------------------|----------------------------------------------------------|
+
 | **Backend**       | Node.js, Express.js                                     |
+
 | **Database**      | PostgreSQL with Prisma ORM                              |
+
 | **Authentication**| Passport.js (Local Strategy)                            |
-| **Sessions**      | express-session, @quixo3/prisma-session-store     |
+| **Sessions**      | express-session, @quixo3/prisma-session-store           
+|   
+|
 | **Views/UI**      | EJS Templates + Bootstrap 5                             |
+
 | **File Uploads**  | Cloudinary for image storage                            |
+
 | **Validation**    | express-validator, connect-flash (for messages/errors)  |
 
 
@@ -58,14 +65,18 @@ odinbook/
 
 ├── routes/ # Express route definitions (modularized)
 
+
 │ ├── auth.js # Login & Register routes
 
+
 │ ├── post.js # Create, like, comment on posts
+
 
 │ └── user.js # Follow/unfollow, profiles
 │
 
 ├── views/ # EJS templates (with Bootstrap layout)
+
 
 │ ├── partials/ # Header, footer, flash messages
 
